@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   min-height: 50vh;
+   color: #ffff;
+}
+#logo{
+    width: 300px;
+}
+h1{
+    margin: 20px 0;
+    font-size: 30px;
+}
