@@ -3,19 +3,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: sans-serif;
+}
 body{
     background-color: black;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   min-height: 50vh;
-   color: #ffff;
+    text-align: center;
 }
 #logo{
-    width: 300px;
+    width: 7rem;
+    object-fit: contain;
+    margin-top: 2rem;
 }
 h1{
-    margin: 20px 0;
-    font-size: 30px;
+    color: #e8d4b2;
+}
+p{
+    color: #e8d4b2;
+    font-size: 22px;
+}
+a{
+    color: #fee389;
 }
